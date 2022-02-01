@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nqueens</title>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="Queen">
+        <i class="fas fa-chess-queen" id="queen"></i>
+    </div>
+
+
+    <fieldset class="boxOp">
+        <legend>Opções</legend>
+
+        <div class="selection-board">
+            Tamanho do tabuleiro:
+            <select id="size" onchange="changeTable(this)">
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8" selected>8</option>
+            </select>
+        </div>
+
+        <div class="solution">
+            <button onclick="solution()">Solução</button>
+        </div>
+
+        <div class="clean">
+            <button onclick="clearBoard()">Limpar</button>
+        </div>
+    </fieldset>
+
+    <fieldset class="msg">
+        mensagens
+        <div class="sucess">
+            ganho
+        </div>
+
+        <div class="loser">
+            perdeu
+        </div>
+    </fieldset>
+
+    <script src="main.js"></script>
+</body>
+
+</html>

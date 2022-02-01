@@ -1,0 +1,64 @@
+#queen {
+  font-size: 35px;
+  text-align: center;
+  padding-top: 8px;
+  color: crimson;
+
+  position: absolute;
+}
+
+.boxOp{
+  width: auto;
+  height: auto;
+
+  margin: auto;
+  position: absolute;
+  top: 80%;
+  left: 48.5%;
+  transform: translate(-50%, -50%);
+}
+
+button {
+  cursor: pointer;
+  margin: 2px;
+}
+
+.msg{
+  width: 150px;
+  height: 100px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin: auto;
+  position: absolute;
+  top: 35%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+}
+
+table{
+  margin: auto;
+  margin-top: 50px;
+
+  width: 400px;
+  height: 400px;
+
+  background: black;
+
+  cursor: pointer;
+}
+
+.white{
+  background: white;
+  border: 1px solid white;
+}
+
+.black{
+  background: black;
+}
+
+.hide{
+  visibility: hidden;
+}
